@@ -2298,7 +2298,7 @@ dependencies = [
  "futures-sink",
  "futures-util",
  "http",
- "indexmap 2.1.0",
+ "indexmap 2.2.2",
  "slab",
  "tokio",
  "tokio-util 0.7.1",
@@ -2674,9 +2674,9 @@ dependencies = [
 
 [[package]]
 name = "indexmap"
-version = "2.1.0"
+version = "2.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d530e1a18b1cb4c484e6e34556a0d948706958449fca0cab753d649f2bce3d1f"
+checksum = "824b2ae422412366ba479e8111fd301f7b5faece8149317bb81925979a53f520"
 dependencies = [
  "equivalent",
  "hashbrown 0.14.3",
@@ -4936,11 +4936,11 @@ dependencies = [
 
 [[package]]
 name = "serde_yaml"
-version = "0.9.30"
+version = "0.9.31"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b1bf28c79a99f70ee1f1d83d10c875d2e70618417fda01ad1785e027579d9d38"
+checksum = "adf8a49373e98a4c5f0ceb5d05aa7c648d75f63774981ed95b7c7443bbd50c6e"
 dependencies = [
- "indexmap 2.1.0",
+ "indexmap 2.2.2",
  "itoa",
  "ryu",
  "serde",
@@ -5284,7 +5284,7 @@ dependencies = [
  "fnv",
  "im",
  "index_list",
- "indexmap 2.1.0",
+ "indexmap 2.2.2",
  "itertools",
  "lazy_static",
  "libsecp256k1",
@@ -5452,7 +5452,7 @@ dependencies = [
  "rand 0.8.5",
  "rayon",
  "serde_json",
- "serde_yaml 0.9.30",
+ "serde_yaml 0.9.31",
  "serial_test",
  "solana-clap-utils",
  "solana-cli-config",
@@ -5722,7 +5722,7 @@ dependencies = [
  "lazy_static",
  "serde",
  "serde_derive",
- "serde_yaml 0.9.30",
+ "serde_yaml 0.9.31",
  "solana-clap-utils",
  "solana-sdk",
  "url 2.5.0",
@@ -5764,7 +5764,7 @@ dependencies = [
  "dashmap",
  "futures 0.3.30",
  "futures-util",
- "indexmap 2.1.0",
+ "indexmap 2.2.2",
  "indicatif",
  "log",
  "quinn",
@@ -5845,7 +5845,7 @@ dependencies = [
  "bincode",
  "crossbeam-channel",
  "futures-util",
- "indexmap 2.1.0",
+ "indexmap 2.2.2",
  "indicatif",
  "log",
  "rand 0.8.5",
@@ -6112,7 +6112,7 @@ dependencies = [
  "itertools",
  "serde",
  "serde_json",
- "serde_yaml 0.9.30",
+ "serde_yaml 0.9.31",
  "solana-accounts-db",
  "solana-clap-utils",
  "solana-cli-config",
@@ -6183,7 +6183,7 @@ dependencies = [
  "clap 2.33.3",
  "crossbeam-channel",
  "flate2",
- "indexmap 2.1.0",
+ "indexmap 2.2.2",
  "itertools",
  "log",
  "lru",
@@ -6245,7 +6245,7 @@ dependencies = [
  "semver 1.0.21",
  "serde",
  "serde_yaml 0.8.26",
- "serde_yaml 0.9.30",
+ "serde_yaml 0.9.31",
  "solana-clap-utils",
  "solana-config-program",
  "solana-logger",
@@ -7271,7 +7271,7 @@ dependencies = [
  "crossbeam-channel",
  "futures-util",
  "histogram",
- "indexmap 2.1.0",
+ "indexmap 2.2.2",
  "itertools",
  "libc",
  "log",
@@ -7360,7 +7360,7 @@ dependencies = [
  "console",
  "csv",
  "ctrlc",
- "indexmap 2.1.0",
+ "indexmap 2.2.2",
  "indicatif",
  "pickledb",
  "serde",
@@ -7389,7 +7389,7 @@ dependencies = [
  "async-trait",
  "bincode",
  "futures-util",
- "indexmap 2.1.0",
+ "indexmap 2.2.2",
  "indicatif",
  "log",
  "rayon",
@@ -7561,7 +7561,7 @@ dependencies = [
  "rayon",
  "serde",
  "serde_json",
- "serde_yaml 0.9.30",
+ "serde_yaml 0.9.31",
  "signal-hook",
  "solana-account-decoder",
  "solana-accounts-db",
@@ -8600,7 +8600,7 @@ version = "0.20.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "70f427fce4d84c72b5b732388bf4a9f4531b53f74e2887e3ecb2481f68f66d81"
 dependencies = [
- "indexmap 2.1.0",
+ "indexmap 2.2.2",
  "toml_datetime",
  "winnow",
 ]
@@ -8611,7 +8611,7 @@ version = "0.21.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d34d383cd00a163b4a5b85053df514d45bc330f6de7737edfe0a93311d1eaa03"
 dependencies = [
- "indexmap 2.1.0",
+ "indexmap 2.2.2",
  "serde",
  "serde_spanned",
  "toml_datetime",
